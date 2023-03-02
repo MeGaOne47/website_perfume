@@ -1,12 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html>
+ <head>
+ <title>Đăng kí</title>
+ <link rel="stylesheet" href="./assets/css/sign-up.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i|Noto+Sans:400,400i,700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+ </head>
+ <body>
+    <!-- header -->
+    <div id="header">
+        <!--Begin: nav-->
+        <ul id="nav">
+            <li><a href="">Trang Chủ</a></li>
+            <li>
+                <a href="#">
+                    Sản Phẩm
+                    <div class="nav-arrow-down ti-angle-down"></div>
+                </a>
+                <ul class="subnav">
+                    <li><a href="">Sản Phẩm Nam</a></li>
+                    <li><a href="">Sản Phẩm Nữ</a></li>
+                    <li><a href="">Sản Phẩm Cao Cấp</a></li>
+                </ul>
+            </li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Liên Hệ</a></li>
+        </ul>
+        <!--End: nav-->
+        <!--Begin: search-->
+            <div class="search-btn">
+                <div class="search-icon ti-search"></div>
+            </div>
+            <div class="cart-btn">
+                <div class="cart-icon ti-shopping-cart"></div>
+            </div>
+            <div class="user-btn">
+                <div class="user-icon ti-user"></div>
+            </div>
+        <!--End: search-->
+    </div>
+    <div class="to">
+        <div class="form">
+            <h2>Đăng ký tài khoản</h2>
+            <i class="fab fa-app-store-ios"></i>
+            <label style="margin-left: -150px;">Họ và tên</label>
+            <input type="text" name="hoten">
+            <label>Số điện thoại</label>
+            <input type="text" name="sdt"> 
+            <label style="margin-left: -180px;">Email</label>
+            <input type="text" name="email"> 
+            <input id="submit" type="submit" name="submit" value="Gửi">
+        </div> 
+    </div>
+    <div id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
+            <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+        </div>
+        <div class="box">
+            <h3>NỘI DUNG</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>LIÊN HỆ</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email">
+                <button>Nhận tin</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+ </body>
 </html>
